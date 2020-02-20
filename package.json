@@ -1,0 +1,31 @@
+{
+  "name": "firstcry_node_assignment",
+  "version": "1.0.0",
+  "description": "This is sample app for add student data",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env ENVIRONMENT=dev node app.js",
+    "test": "cross-env ENVIRONMENT=test ./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "Assignement",
+    "First Cry"
+  ],
+  "author": "Rahul Shelake",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "mocha": "^7.0.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "mongoDB": {
+        "url":"mongodb://localhost:27017/student",
+        "test_url":"mongodb://localhost:27017/student_test"
+    }
+}
