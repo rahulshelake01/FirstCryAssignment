@@ -2,6 +2,9 @@
   mongodb service is running on your machine.
   For mongodb configuration plz check the ./config/default.json file.
 
+- To install the required modules run below command.
+  $ npm install
+
 - To start the nodejs server run the below command on console.
   $ npm start
 
