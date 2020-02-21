@@ -1,5 +1,6 @@
 - To run this assignmenet first you need to make sure that
   mongodb service is running on your machine.
+  For mongodb configuration plz check the ./config/default.json file.
 
 - To start the nodejs server run the below command on console.
   $ npm start
